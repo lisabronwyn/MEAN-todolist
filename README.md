@@ -25,6 +25,7 @@ The App: As a user...
 - [ ] I can edit the text on existing to do's.
 
 #### Additional Specs:
+
 - [x] Create the back end using node and express.
 - [ ] Deploy the app to heroku. 
 - [ ] Create a database of to do list items.
@@ -32,14 +33,23 @@ The App: As a user...
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 #### Stretch Goals/Nice to Have's:
-- [ ] I can create mulitple lists of to do's.
+
+- [ ] I can create multiple lists of to do's.
 - [ ] I can log into my account.
 - [ ] Write the app using ES6 and deploy using babel.
 
 ---
+
+###Resources I Used
+- [ ] I can create mulitple lists of to do's.
+- [ ] I can log into my account.
+- [ ] Write the app using ES6 and deploy using babel.
+
+
 ## License
 
 <!-- LICENSE -->
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 <br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+

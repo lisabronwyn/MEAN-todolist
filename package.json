@@ -1,14 +1,25 @@
 {
-  "name": "mean-todo-app",
+  "name": "MEAN-todolist",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "NODE_PATH=$NODE_PATH:/src node server",
     "dev": "npm start & webpack-dev-server --progress --colors"
   },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true,
+      "es6": true
+    },
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "rules": {}
+  },
   "keywords": [],
-  "author": "",
+  "author": "lisabronwyn",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.1",

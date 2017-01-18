@@ -1,7 +1,7 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
-import todosController from 'todos/todos';
-import todoFactory from 'factories/todo-factory';
+// import todoFactory from 'factories/todo-factory';
+// import todosController from 'todos/todos';
 
 const app = angular.module('app', [uiRouter, todoFactory.name]);
 
@@ -12,12 +12,12 @@ app.config(($stateProvider, $urlRouterProvider, $locationProvider) => {
         .state('todos', {
             url: '/',
             template: require('todos/todos.html'),
-            controller: todosController
+            // controller: todosController
         })
         .state('about', {
             url: '/about',
             template: require('about/about.html')
-        });
+        })
 
     $locationProvider.html5Mode(true);
 });
